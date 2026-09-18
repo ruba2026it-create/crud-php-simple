@@ -38,3 +38,4 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 	</table>
 </body>
 </html>
+<!-- تعديل الطالب الثاني -->
