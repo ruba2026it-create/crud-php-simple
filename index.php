@@ -1,5 +1,8 @@
 <!-- اختبار GitHub من جهاز الطالب الأول -->
+ <!-- تعديل الطالب الثاني -->
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 // Include the database connection file
 require_once("dbConnection.php");
 
@@ -39,3 +42,4 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 </body>
 </html>
 <!-- تعديل الطالب الثاني -->
+ <!-- تعديل الطالب الثاني للمزامنة -->
